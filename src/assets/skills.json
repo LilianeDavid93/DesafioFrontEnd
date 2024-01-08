@@ -1,0 +1,18 @@
+[
+  {
+    "id": 10000,
+    "nomeSkill": "JAVA"
+  },
+  {
+    "id": 10001,
+    "nomeSkill": "CSHARP"
+  },
+  {
+    "id": 10002,
+    "nomeSkill": "REACT"
+  },
+  {
+    "id": 10003,
+    "nomeSkill": "INGLES"
+  }
+]

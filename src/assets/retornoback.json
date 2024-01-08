@@ -1,0 +1,26 @@
+[
+  {
+    "usuarioSkillId": 10002,
+    "skill": {
+      "id": 10000,
+      "nomeSkill": "JAVA"
+    },
+    "level": "INTERMEDIARIO"
+  },
+  {
+    "usuarioSkillId": 10003,
+    "skill": {
+      "id": 10001,
+      "nomeSkill": "CSHARP"
+    },
+    "level": "AVANCADO"
+  },
+  {
+    "usuarioSkillId": 10004,
+    "skill": {
+      "id": 10002,
+      "nomeSkill": "INGLES"
+    },
+    "level": "BASICO"
+  }
+]

@@ -1,0 +1,15 @@
+.botaouniversal {
+  width: 10rem;
+  border-radius: 5px;
+  padding: 0.7rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  box-shadow: 2px 2px 2px #2a8594;
+  color: #fff;
+  transition: 0.5s;
+}
+
+.botaouniversal:hover {
+  cursor: pointer;
+  filter: brightness(0.8);
+}

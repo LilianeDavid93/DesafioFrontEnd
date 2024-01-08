@@ -1,0 +1,95 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header .conteudo-esquerda {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.header .conteudo-esquerda img {
+  width: 80px;
+}
+
+.header .conteudo-esquerda span {
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+h1 {
+  text-align: center;
+}
+
+.tabela-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tabela-container table {
+  width: 80%;
+  min-width: 800px;
+  border-collapse: collapse;
+  background-color: #fff;
+}
+
+.tabela-container th {
+  background-color: #2a8594;
+  color: #fff;
+  font-style: italic;
+}
+
+.tabela-container td,
+.tabela-container th,
+.tabela-container table {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.tabela-container tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.tabela-container table tbody .icon {
+  font-size: 1.7rem;
+}
+
+.tabela-container table tbody .icon:hover {
+  cursor: pointer;
+  filter: brightness(0.8);
+}
+
+.tabela-container table tbody td {
+  padding: 0.5rem;
+  font-weight: bold;
+}
+
+#trash {
+  color: #ff2c2c;
+}
+
+#confirm {
+  color: #009c17;
+}
+
+#levels {
+  font-size: 1.1rem;
+  padding: 0.3rem;
+  border-radius: 5px;
+  text-align: center;
+}
+
+footer {
+  padding: 3rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: flex-end;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}

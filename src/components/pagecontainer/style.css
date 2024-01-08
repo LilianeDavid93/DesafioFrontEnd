@@ -1,0 +1,8 @@
+.container-layout {
+  min-height: 100vh;
+  background-color: rgb(157, 233, 233);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 3rem;
+}

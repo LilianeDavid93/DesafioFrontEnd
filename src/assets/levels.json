@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "descricao": "BASICO"
+  },
+  {
+    "id": 2,
+    "descricao": "INTERMEDIARIO"
+  },
+  {
+    "id": 3,
+    "descricao": "AVANCADO"
+  },
+  {
+    "id": 4,
+    "descricao": "PROFISSIONAL"
+  }
+]
