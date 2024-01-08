@@ -31,7 +31,7 @@ function Cadastro() {
           navigate("/login");
         }
       })
-      .catch((err) => console.log(err));
+      .catch((err) => alert(`Ocorreu algum erro ao realizar cadastro. ${err}`));
   }
 
   return (

@@ -9,7 +9,6 @@ function ModalNovaSkill({
   setSelectSkillOption,
   vincularSkill,
 }) {
-  console.log(levelOptions);
   return (
     <div
       className="modal show"

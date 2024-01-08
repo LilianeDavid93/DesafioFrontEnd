@@ -57,7 +57,11 @@ function Home() {
           return;
         }
       })
-      .catch((err) => console.log(err));
+      .catch((err) =>
+        alert(
+          `Ocorreu um erro ao buscar usuario skill, tente novamente verificando o id.${err}`
+        )
+      );
   }, [refresh]);
 
   useState(() => {
@@ -71,7 +75,9 @@ function Home() {
           return;
         }
       })
-      .catch((err) => console.log(err));
+      .catch((err) =>
+        alert(`Ocorreu um erro ao buscar skill, tente novamente.${err}`)
+      );
   }, []);
 
   function updateLevel(usuarioSkillId) {
@@ -91,7 +97,11 @@ function Home() {
           resetarStates();
         }
       })
-      .catch((err) => console.log(err));
+      .catch((err) =>
+        alert(
+          `Ocorreu um erro ao atualizar usuario skill, tente novamente verificando o id.${err}`
+        )
+      );
   }
 
   function deleteSkill(usuarioSkillId) {
@@ -105,12 +115,11 @@ function Home() {
             setRefresh(true);
           }
         })
-        .catch((err) => console.log(err));
+        .catch((err) => alert(`Ocorreu um erro ao deletar skill.${err}`));
     }
   }
 
   function handlePerfilEditSkill(id, value) {
-    console.log(id, value);
     setUsuarioSkills(
       usuarioSkills.map((skill) => {
         if (skill.usuarioSkillId === id) {
